@@ -1,0 +1,39 @@
+.seccion-contacto {
+  padding: 4rem 0;
+}
+
+.datos-contacto .dato-items {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.datos-contacto .dato-items .dato-icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #6cace4, 0.15;
+  color: #2e5c8a;
+  font-size: 1.15rem;
+}
+.datos-contacto .dato-items h5 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.15rem;
+  color: #1b2a3a;
+}
+.datos-contacto .dato-items p {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+.mapa-pleaceholder {
+  width: 100%;
+  min-height: 320px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(27, 42, 58, 0.1);
+}
